@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
 
+/*
+EN VEZ DE FIXED TRATAR CON STICKY
+CAMBIAR LA IMAGEN DE FONDO
+CAMBIAR EL LOGO O AUMENTAR PIXELAGE
+*/
 .home{
   height: 100vh;
   background-image: url('/src/assets/webb.png');
@@ -11,17 +16,19 @@
   flex-direction: column;
   font-family: 'Contrail One', cursive;
   color:rgb(255, 255, 255);
+  z-index: 1;
 }
 
 .home-black{
   background-color: rgba(0, 0, 0, 0.78);
   width: 100vw;
   height: 100vh;
-  position: fixed;
   z-index: 2;
+  position: absolute;
 }
 
 .home-title{
+  position: relative;
   width: 300px;
   height: 300px;
   margin-bottom: 180px;
@@ -32,19 +39,19 @@
 .home-subtitle{
   font-size: 30px;
   font-weight: 100;
+  position: absolute;
   z-index: 4;
-  position: fixed;
   margin-top: 85px;
   filter: drop-shadow(5px 2px 2px #000000) ;
 }
 
 .home-buttons{
-  position: fixed;
+  position: absolute;
   display: flex;
   flex-direction: row;
   justify-content: center;
   z-index: 4;
-  margin-top: 200px;
+  margin-top: 180px;
 }
 
 .home-cv-btn{
