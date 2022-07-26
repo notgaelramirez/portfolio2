@@ -1,6 +1,6 @@
 import React from 'react'
 import './home.css'
-import gael from '/src/assets/gael.png'
+import gael from '/src/assets/GAEL.png'
 
 const HomeScreen = () => {
   return (
