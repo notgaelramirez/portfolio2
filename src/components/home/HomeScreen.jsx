@@ -1,6 +1,5 @@
 import React from 'react'
 import './home.css'
-import gael from '/src/assets/gael2.png'
 
 const HomeScreen = () => {
   return (
@@ -24,12 +23,29 @@ const HomeScreen = () => {
 
       <div className='home-buttons'>
         <button className='home-cv-btn'>
-          Download CV
+          <a download href="./src/assets/gael-cv.pdf">Download CV</a>
         </button>
 
         <button className='home-am-btn'>
-          About Me
+          <a href="#about">About Me</a>
         </button>
+      </div>
+
+      <div className='home-links'>
+        <div className='home-link'>
+          <a href="#"><i className='bx bxl-linkedin'></i></a>
+        </div>
+        <div className='home-link'>
+          <a href="#"><i className='bx bxl-whatsapp'></i></a>
+        </div>
+        <div className='home-link'>
+          <a href="#"><i className='bx bxl-github'></i></a>
+        </div>
+      </div>
+
+      <div className='home-scroll-down'>
+        <div><p>scroll down</p></div>
+        <i className='bx bx-mouse'></i>
       </div>
     </div>
   )
