@@ -30,18 +30,35 @@ CAMBIAR EL LOGO O AUMENTAR PIXELAGE
 .home-title{
   position: relative;
   width: 300px;
-  height: 300px;
-  margin-bottom: 180px;
+  height: 200px;
+  margin-bottom: 220px;
   z-index: 4;
-  filter: drop-shadow(5px 2px 2px #000000) ;
+  filter: drop-shadow(5px 2px 2px #000000);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+.home-name{
+  font-size: 140px;
+  margin: 0;
+  height: 140px;
+}
+
+.home-lastname{
+  font-size: 75px;
+  height: 75px;
+  margin: 0;
+}
+
 
 .home-subtitle{
   font-size: 30px;
   font-weight: 100;
   position: absolute;
   z-index: 4;
-  margin-top: 85px;
+  margin-top: 50px;
   filter: drop-shadow(5px 2px 2px #000000) ;
 }
 
@@ -51,7 +68,7 @@ CAMBIAR EL LOGO O AUMENTAR PIXELAGE
   flex-direction: row;
   justify-content: center;
   z-index: 4;
-  margin-top: 180px;
+  margin-top: 170px;
 }
 
 .home-cv-btn{

@@ -7,12 +7,22 @@ const HomeScreen = () => {
     <div className='home'>
       <div className='home-black'></div>
 
-      <img className='home-title' src={gael} alt="" />
-      <p className='home-subtitle'>
-        Frontend Developer
-      </p>
+      <div className='home-title'>
+        <p className='home-name'>
+          GAEL
+        </p>
+        <p className='home-lastname'>
+          RAMIREZ
+        </p>
+      </div>
 
-      <div className="home-buttons">
+      <div className='home-subtitle'>
+        <p>
+          Frontend Developer
+        </p>
+      </div>
+
+      <div className='home-buttons'>
         <button className='home-cv-btn'>
           Download CV
         </button>
