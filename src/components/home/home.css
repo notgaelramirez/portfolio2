@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+.home{
+  height: 100vh;
+  background-image: url('/src/assets/webb.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Contrail One', cursive;
+  color:rgb(255, 255, 255);
+}
+
+.home-black{
+  background-color: rgba(0, 0, 0, 0.78);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 2;
+}
+
+.home-title{
+  width: 300px;
+  height: 300px;
+  margin-bottom: 180px;
+  z-index: 4;
+  filter: drop-shadow(5px 2px 2px #000000) ;
+}
+
+.home-subtitle{
+  font-size: 30px;
+  font-weight: 100;
+  z-index: 4;
+  position: fixed;
+  margin-top: 85px;
+  filter: drop-shadow(5px 2px 2px #000000) ;
+}
+
+.home-buttons{
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  z-index: 4;
+  margin-top: 200px;
+}
+
+.home-cv-btn{
+  width: 120px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  z-index: 4;
+  border: 3px solid white;
+  border-radius: 12px 0 0 12px;
+  font-family: 'Contrail One', cursive;
+  font-size: 15px;
+  font-weight: lighter;
+  transition: 600ms ease-out;
+}
+
+.home-cv-btn:hover{
+  cursor: pointer;
+  background-color: blanchedalmond;
+  color: #000000;
+  transition: 400ms ease-in;
+  transform: translateY(-5px);
+}
+
+.home-am-btn{
+  width: 120px;
+  height: 50px;
+  background-color: transparent;
+  color: white;
+  z-index: 4;
+  border: 3px solid white;
+  border-radius: 0 12px 12px 0;
+  font-family: 'Contrail One', cursive;
+  font-size: 15px;
+  font-weight: lighter;
+  transition: 600ms ease-out;
+}
+
+.home-am-btn:hover{
+  cursor: pointer;
+  background-color: blanchedalmond;
+  color: #000000;
+  transition: 400ms ease-in;
+  transform: translateY(-5px);
+}
