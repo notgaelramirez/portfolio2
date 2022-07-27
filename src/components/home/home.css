@@ -126,7 +126,7 @@
   position: absolute;
   z-index: 4;
   margin-top: 610px;
-  margin-right: 250px;
+  margin-left: 250px;
   display: flex;
   gap: 6px;
   animation: down-buttons 6s;
@@ -164,7 +164,7 @@
   position: absolute;
   z-index: 4;
   margin-top: 530px;
-  margin-left: 290px;
+  margin-right: 360px;
   width: 40px;
   transition: 700ms ease;
   animation: down-buttons 6s;
@@ -177,14 +177,14 @@
   transition: 700ms ease;
 }
 
-.home-scroll-down > div{
+.home-scroll{
   transform: rotate(-90deg);
   min-width: 80px;
   position: relative;
   margin-bottom: 40px;
 }
 
-.home-scroll-down > i{
+.bx-mouse{
   position: relative;
   margin-left: 32px;
 }

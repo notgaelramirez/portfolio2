@@ -1,5 +1,6 @@
 import React from 'react'
 import './home.css'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 const HomeScreen = () => {
   return (
@@ -27,7 +28,7 @@ const HomeScreen = () => {
         </button>
 
         <button className='home-am-btn'>
-          <a href="#about">About Me</a>
+          <Link to='about' smooth={true}>About Me</Link>
         </button>
       </div>
 
@@ -44,8 +45,10 @@ const HomeScreen = () => {
       </div>
 
       <div className='home-scroll-down'>
-        <div><p>scroll down</p></div>
-        <i className='bx bx-mouse'></i>
+        <Link to='about' smooth={true}>
+          <div className='home-scroll'><p>scroll down</p></div>
+          <i className='bx bx-mouse'></i>
+        </Link>
       </div>
     </div>
   )
