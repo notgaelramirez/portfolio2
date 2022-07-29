@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700;800&display=swap');
 
 .about{
   font-family: 'Overpass', sans-serif;
   position: absolute;
   height: 200vh;
   width: 100vw;
-  background-color: white;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -18,13 +17,85 @@
   background-color: rgb(3, 3, 3);
   color: white;
   width: 100vw;
-  height: 6vh;
+  height: 8vh;
   font-weight: lighter;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  z-index: 4;
 }
 
-h2{
+.nav > h2{
   margin-left: 20px;
+}
+
+.about-container{
+  border-radius: 10px;
+  z-index: 1;
+  margin-top: 15vh;
+  position: absolute;
+  height: 88vh;
+  width: 95vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-container > header {
+  font-family: 'Overpass', sans-serif;
+  width: inherit;
+  height: 9vh;
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-container > header > p{
+  margin: 0;
+}
+
+.about-info{
+  width: inherit;
+  height: 38vh;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.about-info > p {
+  font-weight: 700;
+  position: static;
+  text-align: center;
+  font-size: larger;
+}
+
+.about-skills > p {
+  font-family: 'Overpass', sans-serif;
+  width: inherit;
+  height: 9vh;
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skills-logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 10px;
+  row-gap: 15px;
+  height: 10vh;
+  height: 45vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skill-logo{
+  height: 80px;
+  filter: drop-shadow(1px 1px 10px #7a79796c);
 }
