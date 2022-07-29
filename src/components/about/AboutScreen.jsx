@@ -3,7 +3,11 @@ import './about.css'
 
 const AboutScreen = () => {
   return (
-    <div className='about' id='about'>AboutScreen</div>
+    <section className='about' id='about'>
+      <nav className='nav'>
+        <h2>GR</h2>
+      </nav>
+    </section>
   )
 }
 
