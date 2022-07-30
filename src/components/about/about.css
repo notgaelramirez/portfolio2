@@ -71,7 +71,14 @@
   font-size: larger;
 }
 
-.about-skills > p {
+.about-skills{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-title{
   font-family: 'Overpass', sans-serif;
   width: inherit;
   height: 9vh;
@@ -80,6 +87,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 0;
+}
+
+.skills-subtitle{
+  margin: 0;
 }
 
 .skills-logos{
@@ -91,11 +103,25 @@
   row-gap: 15px;
   height: 10vh;
   height: 45vh;
-  padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.skills-logos > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill-logo{
   height: 80px;
-  filter: drop-shadow(1px 1px 10px #7a79796c);
+}
+
+@keyframes react {
+  0% {transform: rotate(0);}
+  100% {transform: rotate(360deg);}
+}
+
+.react {
+  animation: react 15s linear infinite;
 }

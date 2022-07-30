@@ -30,19 +30,52 @@ const AboutScreen = () => {
         </div>
 
         <div className='about-skills'>
-          <p>Skills</p>
+          <p className='skills-title'>Skills</p>
           <div className='skills-logos'>
-            <img className='skill-logo' src={react} alt="" />
-            <img className='skill-logo' src={redux} alt="" />
-            <img className='skill-logo' src={js} alt="" />
-            <img className='skill-logo' src={html} alt="" />
-            <img className='skill-logo' src={css} alt="" />
-            <img className='skill-logo' src={node} alt="" />
-            <img className='skill-logo' src={python} alt="" />
-            <img className='skill-logo' src={figma} alt="" />
-            <img className='skill-logo' src={git} alt="" />
-            <img className='skill-logo' src={github} alt="" />
-            <img className='skill-logo' src={sql} alt="" />
+            <div>
+              <img className='skill-logo react' src={react} alt="" />
+              <p>React</p>
+            </div>
+            <div>
+              <img className='skill-logo redux' src={redux} alt="" />
+              <p>Redux</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={js} alt="" />
+              <p>JavaScript</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={html} alt="" />
+              <p>HTML</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={css} alt="" />
+              <p>CSS</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={node} alt="" />
+              <p>Node JS</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={python} alt="" />
+              <p>Python</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={figma} alt="" />
+              <p>Figma</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={git} alt="" />
+              <p>Git</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={github} alt="" />
+              <p>GitHub</p>
+            </div>
+            <div>
+              <img className='skill-logo' src={sql} alt="" />
+              <p>MySQL</p>
+            </div>
           </div>
         </div>
       </section>
