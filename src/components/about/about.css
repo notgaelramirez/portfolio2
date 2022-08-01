@@ -2,12 +2,12 @@
 
 .about{
   font-family: 'Overpass', sans-serif;
-  position: absolute;
-  height: 200vh;
+  height: 120vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  margin-bottom: 20px;
 }
 
 .nav{
@@ -92,7 +92,7 @@
 
 .skills-subtitle{
   margin: 0;
-}
+} 
 
 .skills-logos{
   display: flex;

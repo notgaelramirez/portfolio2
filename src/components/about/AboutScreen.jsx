@@ -11,6 +11,7 @@ import figma from '/src/assets/figma.png'
 import git from '/src/assets/git.png'
 import github from '/src/assets/github.png'
 import sql from '/src/assets/sql.png'
+import WorkScreen from '../work/WorkScreen'
 
 const AboutScreen = () => {
   return (
