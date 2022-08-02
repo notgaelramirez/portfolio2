@@ -1,0 +1,63 @@
+.footer{
+  font-family: 'Contrail One', cursive;
+  background: black;
+  color: white;
+  width: 100vw;
+  height: 28vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.footer-name{
+  font-size: 35px;
+  margin: 0;
+}
+
+.footer-subtitle{
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  font-size: 18px;
+}
+
+.footer-links{
+  display: flex;
+  gap: 15px;
+}
+
+.footer-link{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+  height: 35px;
+  width: 35px;
+  border-radius: 10%;
+}
+
+.footer-link:hover{
+  cursor: pointer;
+}
+
+.footer-copyright{
+  font-family: 'Overpass', sans-serif;
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 12px;
+}
+
+.footer-copyright > p{
+  margin-bottom: 0;
+}

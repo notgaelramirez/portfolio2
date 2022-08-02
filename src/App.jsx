@@ -1,10 +1,9 @@
-import { useState } from 'react'
 import './App.css'
 import AboutScreen from './components/about/AboutScreen'
 import HomeScreen from './components/home/HomeScreen'
-import { Link, animateScroll as scroll } from 'react-scroll'
 import WorkScreen from './components/work/WorkScreen'
 import ContactScreen from './components/contact/ContactScreen'
+import FooterScreen from './components/footer/FooterScreen'
 
 function App() {
 
@@ -18,6 +17,7 @@ function App() {
         <AboutScreen />
         <WorkScreen />
         <ContactScreen />
+        <FooterScreen />
       </div>
     </div>
   )

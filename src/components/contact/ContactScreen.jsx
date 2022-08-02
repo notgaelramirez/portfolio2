@@ -38,8 +38,31 @@ const ContactScreen = () => {
           </div>
         </div>
 
-        <div className="contact-form">
-          
+        <div className="contact-form-container">
+
+          <div className="form-text">
+            <p>Tell me your project:</p>
+          </div>
+
+          <form action="https://formspree.io/f/moqryoll" method="POST" className="contact_form">
+            
+            <div className="contact_form-div">
+              <label for="name" className="contact_form-tag">Name</label>
+              <input type="text" placeholder="Insert your name" className="contact_form-input" name="name" />
+            </div>
+
+            <div className="contact_form-div">
+              <label for="email" className="contact_form-tag">Mail</label>
+              <input type="email" placeholder="Insert your email" className="contact_form-input" name="email" />
+            </div>
+
+            <div className="contact_form-div contact_form-area">
+              <label for="message" className="contact_form-tag">Project</label>
+              <textarea id="" cols="30" rows="10" placeholder="Write your project" className="contact_form-input" name="message"></textarea>
+            </div>
+
+            <button type="submit" className="button">Send Message</button>
+          </form>
         </div>
       </section>
     </article>
