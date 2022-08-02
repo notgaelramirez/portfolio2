@@ -7,3 +7,22 @@
   flex-direction: column;
   justify-content: center;
 }
+
+.nav{
+  position: sticky;
+  top: 0;
+  font-family: 'Contrail One', cursive;
+  background-color: rgb(3, 3, 3);
+  color: white;
+  width: 100vw;
+  height: 8vh;
+  font-weight: lighter;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 4;
+}
+
+.nav > h2{
+  margin-left: 20px;
+}

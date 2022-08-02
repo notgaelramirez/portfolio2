@@ -1,0 +1,82 @@
+.contact{
+  width: 100vw;
+  height: 92vh;
+  background-color: aquamarine;
+  margin-top: 70px;
+}
+
+.contact-header{
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+  margin-top: 30px;
+}
+
+.contact-header > p{
+  font-size: 32px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.contact-info{
+  font-family: 'Overpass', sans-serif;
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-text > p{
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+  text-align: center;
+  max-width: 90vw;
+}
+
+.contact-links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 60vh;
+  width: 90vw;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.contact-link{
+  width: 80vw;
+  height: 17vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-link > p{
+  margin: 0;
+}
+
+.contact-link > .bx {
+  font-size: 45px;
+}
+
+.contact-link .network{
+  font-weight: 900;
+}
+
+.contact-link .data{
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.contact-link > a{
+  text-decoration: none;
+  color: #1f096d;
+  font-weight: 900;
+  margin-top: 5px;
+}

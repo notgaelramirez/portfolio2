@@ -16,10 +16,6 @@ import WorkScreen from '../work/WorkScreen'
 const AboutScreen = () => {
   return (
     <article className='about' id='about'>
-      <nav className='nav'>
-        <h2>GR</h2>
-      </nav>
-
       <section className='about-container'>
         <header>
           <p>About Me</p>
