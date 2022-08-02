@@ -25,7 +25,7 @@ const HomeScreen = () => {
 
       <div className='home-buttons'>
         <button className='home-cv-btn'>
-          <a download href={cv}>Download CV</a>
+          <a download href={cv} target='_blank'>Download CV</a>
         </button>
 
         <button className='home-am-btn'>
