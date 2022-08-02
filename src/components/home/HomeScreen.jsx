@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import { Link, animateScroll as scroll } from 'react-scroll'
+import cv from '/src/assets/gael-cv.pdf'
 
 const HomeScreen = () => {
   return (
@@ -24,7 +25,7 @@ const HomeScreen = () => {
 
       <div className='home-buttons'>
         <button className='home-cv-btn'>
-          <a download href="./src/assets/gael-cv.pdf">Download CV</a>
+          <a download href={cv}>Download CV</a>
         </button>
 
         <button className='home-am-btn'>
