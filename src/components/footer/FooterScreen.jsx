@@ -10,9 +10,9 @@ const FooterScreen = () => {
       </div>
 
       <div className="footer-links">
-        <i className='bx bx-envelope footer-link'></i>
-        <i className='bx bxl-linkedin footer-link' ></i>
-        <i className='bx bxl-whatsapp footer-link' ></i>
+        <a href="mailto:ramirezbgael@gmail.com" target='_blank'><i className='bx bx-envelope footer-link'></i></a>
+        <a href="https://www.linkedin.com/in/gaelramirez"><i className='bx bxl-linkedin footer-link' ></i></a>
+        <a href="https://wa.me/7294998951/?text=Hola!"><i className='bx bxl-whatsapp footer-link' ></i></a>
       </div>
 
       <div className='footer-copyright'>

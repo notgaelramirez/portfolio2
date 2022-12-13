@@ -20,25 +20,25 @@ const ContactScreen = () => {
             <i className='bx bx-envelope'></i>
             <p className='network'>Email</p>
             <p className='data'>ramirezbgael@gmail.com</p>
-            <a href="#">Write Me!</a>
+            <a href="mailto:ramirezbgael@gmail.com">Write Me!</a>
           </div>
 
           <div className='contact-link'>
             <i className='bx bxl-linkedin' ></i>
             <p className='network'>LinkedIn</p>
             <p className='data'>https://linkedin.com/in/gaelramirez</p>
-            <a href="#">Write Me!</a>
+            <a href="https://www.linkedin.com/in/gaelramirez" target='_blank'>Write Me!</a>
           </div>
 
           <div className='contact-link'>
             <i className='bx bxl-whatsapp' ></i>
             <p className='network'>WhatsApp</p>
             <p className='data'>729-499-89-51</p>
-            <a href="#">Write Me!</a>
+            <a href="https://wa.me/7294998951/?text=Hola!" target='_blank'>Write Me!</a>
           </div>
         </div>
 
-        <div className="contact-form-container">
+        {/*<div className="contact-form-container">
 
           <div className="form-text">
             <p>Tell me your project:</p>
@@ -63,7 +63,7 @@ const ContactScreen = () => {
 
             <button type="submit" className="button">Send Message</button>
           </form>
-        </div>
+  </div>*/}
       </section>
     </article>
   )

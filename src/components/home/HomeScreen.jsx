@@ -35,13 +35,13 @@ const HomeScreen = () => {
 
       <div className='home-links'>
         <div className='home-link'>
-          <a href="#"><i className='bx bxl-linkedin'></i></a>
+          <a href="https://www.linkedin.com/in/gaelramirez" target='_blank'><i className='bx bxl-linkedin'></i></a>
         </div>
         <div className='home-link'>
-          <a href="#"><i className='bx bxl-whatsapp'></i></a>
+          <a href="https://wa.me/7294998951/?text=Hola!" target='_blank'><i className='bx bxl-whatsapp'></i></a>
         </div>
         <div className='home-link'>
-          <a href="#"><i className='bx bxl-github'></i></a>
+          <a href="https://github.com/ramirezbgael" target='_blank'><i className='bx bxl-github'></i></a>
         </div>
       </div>
 
